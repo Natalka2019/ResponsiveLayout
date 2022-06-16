@@ -91,19 +91,12 @@
 @media only screen and (min-width: 1024px) {
 
   .content__gallery {
+    padding-right: 200px;
     grid-template-columns: repeat(auto-fit, minmax(330px, max-content));
   }
 
   .content__gallery__item_image {
     max-width: 300px;
-  }
-
-}
-
-@media only screen and (min-width: 1440px) {
-
-  .content__gallery {
-    padding-right: 200px;
   }
 
   .content__list {
